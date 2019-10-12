@@ -1,4 +1,4 @@
-#include"Stack.cpp"
+#include"Queue.cpp"
 #include<iostream>
 #include<string>
 using namespace std;
@@ -15,6 +15,8 @@ int main()
 	stack3.print();
 	cout << endl;
 	stack4.print();
+	Que q;
+
 	system("pause");
 	return 0;
 }

@@ -4,7 +4,7 @@ using namespace std;
 
 class Stack
 {
-private:
+protected:
 	Node *top;
 public:
 	Stack():top(NULL){}
