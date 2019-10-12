@@ -1,6 +1,7 @@
 #include "Stack.cpp"
 class Que:protected Stack
 {
+protected:
 	Node *tail;
 public:
 	Que():tail(NULL){}
