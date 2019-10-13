@@ -7,7 +7,6 @@ private:
 	int data;
 public:
 	Node *next;
-
 	Node():data(0),next(NULL){}
 	Node(int d) :data(d) {}
 
